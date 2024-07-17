@@ -1,79 +1,44 @@
-body {
-    height: 100%;
-    width: 100%;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+body{
+    background: rgb(230, 227, 227);
+    margin: 0;
 }
-
-body {
-    background-color: rgb(4, 4, 4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card {
-    background-color: white;
-    width: 500px;
-}
-
-.post-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.icon-title {
-    display: flex;
-    align-items: center;
-}
-
-.icon-header1 {
-    margin-left: 10px;
-    margin-right: 5px;
-}
-
-.title {
-    margin: 10px;
-}
-
-.title-text {
-    margin: 2px
-}
-
-.icon-header2 {
-    margin-right: 10px;
-}
-
-.post-img {
-    height: 400px;
-    margin-bottom: 10px;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-.post-icons {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.icons1 {
-    margin-left: 15px;
-}
-
-.icon2 {
-    margin-right: 15px;
-}
-
-.text-container {
+header {
+    background: white;
     padding: 15px;
 }
-
-.text-body {
-    font-size: 15px;
+header h1 {
+    margin: 0;
+}
+div.post {
+    background: white;
+    margin-top: 70px;
+}
+div.post .post-header div:first-child {
+    display: inline-block;
+    width: 90%;
+}
+div.post .post-header div:last-child { 
+    display: inline-block;
+    width: 9%;
+    text-align: right;
+    color: gray;
+}
+div.post img {
+    width: 100%;
+    height: 100%;
+}
+div.post h2 {
+    padding: 10px;
+    margin: 0%;
+}
+div.post p {
+    padding: 10px;
+    margin: 0;
+}
+div.container {
+    width: 600px;
+    margin: auto;
+}
+div.post-bottom {
+    padding-bottom: 70px;
 }
